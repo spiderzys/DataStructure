@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		692A2D6C1D762B6F00CCC7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D6B1D762B6F00CCC7C5 /* main.m */; };
+		692A2D741D762C3C00CCC7C5 /* SortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D731D762C3C00CCC7C5 /* SortedList.m */; };
+		692A2D771D762C5D00CCC7C5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D761D762C5D00CCC7C5 /* Item.m */; };
+		692A2D7A1D76362F00CCC7C5 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D791D76362F00CCC7C5 /* List.m */; };
+		692A2D7D1D7637AC00CCC7C5 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D7C1D7637AC00CCC7C5 /* Queue.m */; };
+		692A2D801D7638F200CCC7C5 /* DataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D7F1D7638F200CCC7C5 /* DataStructure.m */; };
+		692A2D831D7647F400CCC7C5 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D821D7647F400CCC7C5 /* Stack.m */; };
+		692A2D861D7656A500CCC7C5 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D851D7656A500CCC7C5 /* Tree.m */; };
+		692A2D891D768C9A00CCC7C5 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A2D881D768C9A00CCC7C5 /* Heap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		692A2D681D762B6F00CCC7C5 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		692A2D6B1D762B6F00CCC7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		692A2D721D762C3C00CCC7C5 /* SortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedList.h; sourceTree = "<group>"; };
+		692A2D731D762C3C00CCC7C5 /* SortedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedList.m; sourceTree = "<group>"; };
+		692A2D751D762C5D00CCC7C5 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		692A2D761D762C5D00CCC7C5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		692A2D781D76362F00CCC7C5 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		692A2D791D76362F00CCC7C5 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		692A2D7B1D7637AC00CCC7C5 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		692A2D7C1D7637AC00CCC7C5 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		692A2D7E1D7638F200CCC7C5 /* DataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
+		692A2D7F1D7638F200CCC7C5 /* DataStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStructure.m; sourceTree = "<group>"; };
+		692A2D811D7647F400CCC7C5 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		692A2D821D7647F400CCC7C5 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		692A2D841D7656A500CCC7C5 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		692A2D851D7656A500CCC7C5 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		692A2D871D768C9A00CCC7C5 /* Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		692A2D881D768C9A00CCC7C5 /* Heap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,22 @@
 		692A2D6A1D762B6F00CCC7C5 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				692A2D7E1D7638F200CCC7C5 /* DataStructure.h */,
+				692A2D7F1D7638F200CCC7C5 /* DataStructure.m */,
+				692A2D781D76362F00CCC7C5 /* List.h */,
+				692A2D791D76362F00CCC7C5 /* List.m */,
+				692A2D721D762C3C00CCC7C5 /* SortedList.h */,
+				692A2D731D762C3C00CCC7C5 /* SortedList.m */,
+				692A2D7B1D7637AC00CCC7C5 /* Queue.h */,
+				692A2D7C1D7637AC00CCC7C5 /* Queue.m */,
+				692A2D811D7647F400CCC7C5 /* Stack.h */,
+				692A2D821D7647F400CCC7C5 /* Stack.m */,
+				692A2D841D7656A500CCC7C5 /* Tree.h */,
+				692A2D851D7656A500CCC7C5 /* Tree.m */,
+				692A2D871D768C9A00CCC7C5 /* Heap.h */,
+				692A2D881D768C9A00CCC7C5 /* Heap.m */,
+				692A2D751D762C5D00CCC7C5 /* Item.h */,
+				692A2D761D762C5D00CCC7C5 /* Item.m */,
 				692A2D6B1D762B6F00CCC7C5 /* main.m */,
 			);
 			path = DataStructure;
@@ -118,7 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A2D7D1D7637AC00CCC7C5 /* Queue.m in Sources */,
+				692A2D861D7656A500CCC7C5 /* Tree.m in Sources */,
+				692A2D831D7647F400CCC7C5 /* Stack.m in Sources */,
+				692A2D801D7638F200CCC7C5 /* DataStructure.m in Sources */,
+				692A2D771D762C5D00CCC7C5 /* Item.m in Sources */,
+				692A2D7A1D76362F00CCC7C5 /* List.m in Sources */,
 				692A2D6C1D762B6F00CCC7C5 /* main.m in Sources */,
+				692A2D891D768C9A00CCC7C5 /* Heap.m in Sources */,
+				692A2D741D762C3C00CCC7C5 /* SortedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +287,7 @@
 				692A2D711D762B6F00CCC7C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
